@@ -1,0 +1,20 @@
+.nixie-one-regular {
+  font-family: "Nixie One", system-ui;
+  font-weight: normal;
+}
+body {
+  background: #077054;
+  color: #315f52;
+  font-family: 'latoregular';
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.container-content{
+	display: flex;
+	justify-content: center;
+}
+.with-white-background{
+	background: pink;
+	width: 75%;
+}

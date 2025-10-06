@@ -1,0 +1,65 @@
+.nixie-one-regular {
+	font-family: "Nixie One", system-ui;
+	font-weight: normal;
+}
+.lato-regular {
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+}
+body {
+	background: #077054;
+	color: #315f52;
+	font-family: 'latoregular';
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+.container-content {
+	display: flex;
+	justify-content: center;
+}
+.with-white-background {
+	background: white;
+	width: 75%;
+	padding-left: 35px;
+	padding-bottom: 100px;
+	padding-top: 15px;
+	padding-right: 35px;
+}
+.content-header h1 {
+	color: #21a51e;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+.group1 ,.group2, .group3{
+	margin-bottom: 50px;
+	display: flex;
+	width: 75%;
+}
+.group1 h3, .group2 h3, .group3 h3 {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-top: 0px;
+}
+.h3{
+	
+}
+.group1 a, .group2 a, .group3 a{
+	color: #077054;
+	text-decoration: none;
+}
+.group1 a:hover, .group2 a:hover, .group3 a:hover{
+	text-decoration: underline;
+}
+.group1 div img, .group2 div img, .group3 div img{
+	padding-right: 20px;
+}
+.group1 div p, .group2 div p, .group3 div p{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.group1 p, .group2 p, .group3 p{
+	width: 85%;
+	font-size: 15px;
+	line-height: 25px;
+}

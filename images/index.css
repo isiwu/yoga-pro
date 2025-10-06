@@ -1,0 +1,59 @@
+.nixie-one-regular {
+  font-family: "Nixie One", system-ui;
+  font-weight: normal;
+}
+body {
+  background: #077054;
+  color: #315f52;
+  font-family: 'latoregular';
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+.main-content-about {
+  display: flex;
+  background: white;
+  width: 75%;
+}
+.content {
+  margin-top: 150px;
+  margin-left: 150px;
+}
+.image {
+  margin-top: 100px;
+  width: 60%;
+}
+.main-content div.main-content-about h1 {
+  color: #21a51e;
+  font-size: 100px;
+  margin: 0;
+  padding: 0 0 55px;
+  text-transform: uppercase;
+  line-height: 1em;
+  text-align: center;
+}
+.underline-container {
+  display: flex;
+  justify-content: center;
+}
+.underline-container .underline {
+  width: 100px;
+  height: 10px;
+  background-color: violet;
+}
+.main-content div.main-content-about p {
+  color: #21a51e;
+  font-size: 5em;
+  line-height: 90px;
+  margin-top: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.main-content .image {
+  margin-right: 10px;
+}

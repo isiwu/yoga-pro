@@ -1,0 +1,66 @@
+.nixie-one-regular {
+	font-family: "Nixie One", system ui;
+	font-weight: normal;
+}
+.lato-regualar {
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+}
+body {
+  background: #077054;
+  color: #315f52;
+  font-family: 'latoregular';
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.container-content{
+	display: flex;
+	justify-content: center;
+}
+.with-white-background{
+	background: white;
+	width: 75%;
+	padding-left: 35px;
+	padding-bottom: 100px;
+	padding-top: 15px;
+	padding-right:35px;
+}
+.content-header h1{
+color: #21a51e;
+font-size: 35px;
+text-transform: capitalize;
+}
+.main-content{
+	display: flex;
+	justify-content: space-between;
+}
+.content-text{
+	width: 50%;
+}
+.content-text h3{
+	font-size: 23px;
+	text-transform: capitalize;
+	margin-bottom: 0px;
+}
+.content-text span{
+	text-transform: lowercase;
+}
+.content-text p{
+	line-height: 30px;
+	margin-top: 0px;
+}
+.content-image{
+	padding-right: 60px;
+}
+.box1, .box2{
+	display: flex;
+}
+.box-content{
+	margin-right: 50px;
+	margin-bottom: 70px;
+}
+.box1 h3, .box2 h3{
+	text-align: center;
+	margin-top: 0;
+}

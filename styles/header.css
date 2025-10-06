@@ -1,0 +1,53 @@
+.header {
+  margin: 0 auto;
+  max-width: 960px;
+}
+.header .logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.header .logo a {
+  color: #99fa99;
+  text-decoration: none;
+  font-size: 50px;
+}
+.header .logo a span {
+  color: #b6d8cf;
+  display: block;
+  font-family: 'nixie_oneregular';
+  font-size: 26px;
+  text-transform: uppercase;
+}
+.header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+.header .menu a {
+  color: #b6d8cf;
+  font-size: 18px;
+  padding: 0 46px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header .menu a.active {
+  color: #99fa99;
+}
+.header .menu a:hover {
+  color: violet;
+}
+.header .menu .drop-down{
+	position: relative;
+}
+.header .menu .drop-down .drop-down-content{
+	display: none;
+	position: absolute;
+	background: #077054;
+	padding-top: 0px;
+}
+.header .menu .drop-down:hover .drop-down-content{
+	display: block;
+}
